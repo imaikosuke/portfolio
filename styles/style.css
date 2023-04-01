@@ -219,7 +219,7 @@ SP
 /* pcファースト　大きいサイズから小さいサイズへ */
 /* 600pxより小さいときのcss適用 */
 @media screen and (max-width: 600px) {
-  html {
+  p li {
     font-size: 70%;
   }
  
