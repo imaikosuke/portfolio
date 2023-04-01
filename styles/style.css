@@ -219,6 +219,10 @@ SP
 /* pcファースト　大きいサイズから小さいサイズへ */
 /* 600pxより小さいときのcss適用 */
 @media screen and (max-width: 600px) {
+  html {
+    font-size: 70%;
+  }
+ 
   .wrapper {
     margin-bottom: 70px;
   }
