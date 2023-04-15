@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="scripts/main.js"></script>
   </head>
   <body>
     <!-- ヘッダー -->
@@ -39,9 +40,9 @@
       </div>
 
       <!-- About -->
-      <section id="about" class="wrapper">
-        <h2 class="sec-title">About</h2>
-        <ul>
+      <section id="about" class="wrapper container">
+        <h2 class="sec-title text">About</h2>
+        <ul class="text">
           <li>今井宏輔</li>
           <li>東京国際工科専門職大学 工科学部 情報工学科 IoTコース 2年</li>
           <li>主に、Web開発について勉強しています。</li>
@@ -58,27 +59,19 @@
         </p>
       </section>
       <!-- Product -->
-      <section id="product" class="wrapper">
-        <h2 class="sec-title">Product</h2>
-        <ul>
-          <li><img src="./images/works1.jpg" alt="work1"></li>
-          <li><img src="./images/works2.jpg" alt="work2"></li>
-          <li><img src="./images/works3.jpg" alt="work3"></li>
-          <li><img src="./images/works4.jpg" alt="work4"></li>
-          <li><img src="./images/works5.jpg" alt="work5"></li>
-          <li><img src="./images/works6.jpg" alt="work6"></li>
-          <li><img src="./images/works2.jpg" alt="work1"></li>
-          <li><img src="./images/works4.jpg" alt="work2"></li>
-          <li><img src="./images/works1.jpg" alt="work3"></li>
+      <section id="product" class="wrapper container">
+        <h2 class="sec-title text">Product</h2>
+        <ul class="text">
+          <li><a href="https://imaikosuke.github.io/calculator/"><img src="./images/calculator.png" alt="work1"></a></li>
+          <li><img src="./images/commingSoon.png" alt="work2"></li>
         </ul>
       </section>
       <!-- Contact -->
-      <section id="contact" class="wrapper">
-        <h2 class="sec-title">Contact</h2>
-        <p>お問い合わせは以下のフォームから
-        </p>
+      <section id="contact" class="wrapper container">
+        <h2 class="sec-title text">Contact</h2>
+        <p class="text">お問い合わせは以下のフォームから</p>
         <form action="#" method="post">
-          <dl>
+          <dl class="text">
             <dt><label for="name">お名前</label></dt>
             <dd><input type="text" id="name"></dd>
             <dt><label for="email">メールアドレス</label></dt>
